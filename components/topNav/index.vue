@@ -8,6 +8,9 @@
             <div class="link-act" v-for="item in list" :key="item.id">
                 <nuxt-link :to="item.link"  :class="num == item.id ? 'link-rot-act' :  'link-style'">{{item.name}}</nuxt-link>
             </div>
+            <div class="link-act">
+                <a href="https://github.com/meetui/meet-ui" target="_balck">Github</a>
+            </div>
         </nav>
     </header>
 </template>

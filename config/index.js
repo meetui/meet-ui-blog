@@ -3,10 +3,10 @@ module.exports = {
         {id: 1, name: "指南", icon: "",link: "/guide/hello"},
         {id: 2, name: "组件",icon: "",link: "/components/hello"},
         {id: 3, name: "JS", icon: "",link: "/js/hello"},
-        {id: 4, name: "模版", icon: "",link: "/"},
-        {id: 5, name: "Github", icon: "",link: "/"},
+        {id: 4, name: "模版", icon: "",link: "/temple/hello"},
         {id: 6, name: "更新日志", icon: "",link: "/"},
         {id: 7, name: "关于我们", icon: "",link: "/"},
+        // {id: 5, name: "Github", icon: "",link: ""},
     ],
     guide:[
         {
