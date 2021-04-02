@@ -1,9 +1,9 @@
 <template>
     <header class="m-top-nav-main">
-        <a href="/">
+         <nuxt-link to="/" >
             <logo/>
             <span class="m-title-top">Meet-UI</span>
-        </a>
+         </nuxt-link>
         <nav class="m-right-link">
             <div class="link-act" v-for="item in list" :key="item.id">
                 <nuxt-link :to="item.link"  :class="num == item.id ? 'link-rot-act' :  'link-style'">{{item.name}}</nuxt-link>
@@ -38,6 +38,7 @@ export default {
 <style scoped lang="less">
 .m-top-nav-main{
     width: 100%;
+    z-index: 10;
     position: fixed;
     padding: .7rem 6rem;
     line-height: 38px;
